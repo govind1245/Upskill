@@ -7,6 +7,7 @@ const OnBoardingScreen = (props: any) => {
     <View style={styles.container}>
       <Onboarding
         onDone={() => props.navigation.navigate('LoginScreen')}
+        onSkip={() => props.navigation.navigate('LoginScreen')}
         pages={[
           {
             backgroundColor: '#416FB1',
